@@ -1,0 +1,117 @@
+JavaScript is the typless scripting language
+
+Typeless ?
+   let a  = 5;
+ 
+
+Typefull ?
+
+
+{}
+- Block
+- Body of the method
+- Empty blog
+- Object
+
+Object is the collections of keys and values pair------> so hamid in js ob representation is diff. 
+
+let obj = {name: 'abc', city: 'new york'}
+
+Create
+
+Read
+
+Update
+
+Delete
+
+
+
+Key: It should be always be string-------imp: key should always be string. 
+Value: Value should be always be anything it up to us
+
+
+let obj = {name: 'abc', city: 'new york'}
+undefined
+obj
+
+
+
+obj[n] ------> practice it
+
+Dynamic way of reading the value from the object
+
+
+obj.name
+'abc'
+obj.city
+'new york'
+obj.myName
+undefined
+let n = 'city'
+undefined
+obj.n
+undefined
+obj[n]
+'new york'
+obj["city"]
+'new york'
+obj[n]
+'new york'
+
+
+
+obj
+{name: 'abc', city: 'new york'}
+obj.city = 'cali'
+'cali'
+obj
+{name: 'abc', city: 'cali'}
+
+
+
+obj
+{name: 'abc', city: 'new york'}
+obj.city = 'cali'
+'cali'
+obj
+{name: 'abc', city: 'cali'}
+delete obj.city
+true
+
+
+
+const obj2 = {name: 'abc', city: 'new york'}
+undefined
+obj2
+{name: 'abc', city: 'new york'}
+obj2.name
+'abc'
+obj2.city = 'cali'
+'cali'
+obj
+{name: 'abc'}
+
+
+
+const obj2 = {name: 'abc', city: 'new york'}
+undefined
+obj2
+{name: 'abc', city: 'new york'}
+obj2.name
+'abc'
+obj2.city = 'cali'
+'cali'
+obj
+{name: 'abc'}
+delete obj.city
+true
+delete obj2.city
+true
+obj2
+{name: 'abc'}
+
+What is exact difference between let vs const ? in obj
+ Q2: What is the diff b/w scripting and programming language
+find the answers for these qs.
+------
