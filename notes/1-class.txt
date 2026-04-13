@@ -1,0 +1,56 @@
+
+Ramkumar Khubchandani <ramkumarkhub@gmail.com>
+11:33 PM (16 minutes ago)
+to me
+
+let name = 'abc'
+undefined
+name
+'abc'
+name = 'pqr'
+'pqr'
+name
+'pqr'
+
+
+const sname = 'abc'
+undefined
+sname
+'abc'
+sname = 'pqr'
+
+
+
+
+var yourName = 'Yusuf'
+undefined
+let myName = 'Ram'
+undefined
+yourName = 'something'
+'something'
+yourName
+'something'
+myName = 'something'
+'something'
+myName
+'something'
+
+
+var yourName = 'Yusuf'
+undefined
+let myName = 'Ram'
+undefined
+yourName = 'something'
+'something'
+yourName
+'something'
+myName = 'something'
+'something'
+myName
+'something'
+window
+Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
+window.myName ----------------> bc it has block scope so we could not access it. 
+undefined
+window.yourName   -------------> this is bc yourName is defined with var which has global scope. 
+'something'
